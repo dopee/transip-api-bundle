@@ -1,6 +1,6 @@
 <?php
 
-namespace Verschoof\TransipApiBundle\DependencyInjection;
+namespace Dopee\TransipApiBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

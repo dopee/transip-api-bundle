@@ -9,7 +9,7 @@ Installation
 
 Run the following command
 ```sh
-composer require verschoof/transip-api-bundle
+composer require dopee/transip-api-bundle
 ```
 
 Register bundle in AppKernel
@@ -17,12 +17,9 @@ Register bundle in AppKernel
 #app/AppKernel.php
 $bundles = array(
   ...
-  new Verschoof\TransipApiBundle\TransipApiBundle()
+  new Dopee\TransipApiBundle\TransipApiBundle()
 );
 ```
-
-Run `composer update verschoof/transip-api-bundle`
-
 
 Configuration
 =============

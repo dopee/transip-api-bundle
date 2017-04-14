@@ -1,6 +1,6 @@
 <?php
 
-namespace Verschoof\TransipApiBundle\DependencyInjection;
+namespace Dopee\TransipApiBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

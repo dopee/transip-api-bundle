@@ -1,5 +1,5 @@
 {
-    "name": "verschoof/transip-api-bundle",
+    "name": "dopee/transip-api-bundle",
     "type": "symfony-bundle",
     "description": "TransIp API bundle",
     "keywords": ["transip", "api", "symfony"],
@@ -9,13 +9,18 @@
             "name": "Mitchel Verschoof",
             "email": "mitchel@verschoof.net",
             "homepage": "http://www.verschoof.net"
+        },
+        {
+            "name": "Sander Krul",
+            "email": "sander@dope-e.nl",
+            "homepage": "https://www.netvlies.nl"
         }
     ],
     "require": {
         "php": ">=5.3.3",
-        "verschoof/transip-api": "1.1.*"
+        "dopee/transip-api": "1.4.*"
     },
     "autoload": {
-        "psr-0": { "Verschoof\\TransipApiBundle\\": "lib/" }
+        "psr-0": { "Dopee\\TransipApiBundle\\": "lib/" }
     }
 }

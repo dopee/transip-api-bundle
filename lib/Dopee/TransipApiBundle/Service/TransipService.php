@@ -1,6 +1,6 @@
 <?PHP
 
-namespace Verschoof\TransipApiBundle\Service;
+namespace Dopee\TransipApiBundle\Service;
 
 use Transip;
 
