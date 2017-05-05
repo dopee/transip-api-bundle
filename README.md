@@ -38,7 +38,7 @@ parameters:
      transip_login:      yourusername
      transip_privatekey: "yourkey"
      transip_readonly:   true
-     transip_endpoint:   'api.transip.nl'
+     transip_endpoint:   'https://api.transip.nl'
 ```
 
 Info: privatekey is a multiline key from transip, just remove the breaks to create a one-liner
