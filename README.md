@@ -29,6 +29,7 @@ transip_api:
     login       : "%transip_login%"
     private_key : "%transip_privatekey%"
     read_only   : "%transip_readonly%"
+    endpoint    : "%transip_endpoint%"
 ```
 
 ```yaml
@@ -37,6 +38,7 @@ parameters:
      transip_login:      yourusername
      transip_privatekey: "yourkey"
      transip_readonly:   true
+     transip_endpoint:   'api.transip.nl'
 ```
 
 Info: privatekey is a multiline key from transip, just remove the breaks to create a one-liner
