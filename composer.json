@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "dopee/transip-api": "1.4.*"
+        "dopee/transip-api": "^1.4"
     },
     "autoload": {
         "psr-0": { "Dopee\\TransipApiBundle\\": "lib/" }

@@ -10,7 +10,13 @@ class TransipService
 
     public function __construct($transipConfig)
     {
-        $this->client = new Transip\Client($transipConfig['login'], $transipConfig['private_key'], $transipConfig['read_only'], $transipConfig['endpoint']);
+        $this->client = new Transip\Client(
+            $transipConfig['login'],
+            $transipConfig['private_key'],
+            $transipConfig['read_only'],
+            $transipConfig['endpoint'],
+            $transipConfig['protocol']
+        );
     }
 
     public function api($name)
