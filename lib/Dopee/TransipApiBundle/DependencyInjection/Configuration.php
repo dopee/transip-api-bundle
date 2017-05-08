@@ -32,9 +32,7 @@ class Configuration implements ConfigurationInterface
                     ->isRequired()
                     ->cannotBeEmpty()
                 ->end()
-                ->scalarNode('protocol')
-                    ->isRequired()
-                    ->cannotBeEmpty()
+                ->scalarNode('proxy')
                 ->end()
             ->end()
         ;

@@ -15,7 +15,7 @@ class TransipService
             $transipConfig['private_key'],
             $transipConfig['read_only'],
             $transipConfig['endpoint'],
-            $transipConfig['protocol']
+            $transipConfig['proxy']
         );
     }
 
