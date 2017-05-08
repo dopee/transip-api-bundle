@@ -15,7 +15,7 @@ class TransipService
             $transipConfig['private_key'],
             $transipConfig['read_only'],
             $transipConfig['endpoint'],
-            $transipConfig['proxy']
+            array_key_exists('proxy', $transipConfig) ? $transipConfig['proxy'] : false
         );
     }
 
